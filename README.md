@@ -6,7 +6,7 @@ In the function "cvxpy_solve_qp()" you can modify the last parameter, which repr
 # Description of the algorithm
 A detailed description of the algorithm is reported here: https://pubs.acs.org/doi/full/10.1021/acs.jpcc.3c00770
 # Example
-In the folder "Hematite data" there is a set of IMPS spectra recorded at different potentials applied to the PEC cell (these raw data are the same used in the reference article, without any normalization). If you copy and paste them in the "content" folder you can run the the code "multi_file_GL-DRT.ipynb" to get the L-DRT for any file. In this case the algorithm is included in a for loop and repeats the analysis for every file in the folder.
+In the folder "Hematite_data" there is a set of IMPS spectra recorded at different potentials applied to the PEC cell (these raw data are the same used in the reference article, without any normalization). If you copy and paste them in the "content" folder you can run the the code "multi_file_GL-DRT.ipynb" to get the L-DRT for any file. In this case the algorithm is included in a for loop and repeats the analysis for every file in the folder.
 The output graphs represent the IMPS data with the fit (first), the descrete L-DRT curve (second), the GL-DRT curve (third), J_photo, J_Gartner and J_rec (fourth) and k_rec and k_tr (fifth).
 # Support
 If you need support write to: alberto.piccioni@unibo.it, pierpaolo.vecchi2@unibo.it or raffaello.mazzaro@unibo.it
